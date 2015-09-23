@@ -1,9 +1,9 @@
 {
   "name": "choco",
   "theme": "syntax",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A chocolate color theme for Atomm ",
-  "keywords":[
+  "keywords": [
     "syntax",
     "chocolate",
     "candy",
