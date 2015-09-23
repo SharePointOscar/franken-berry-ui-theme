@@ -1,0 +1,17 @@
+{
+  "name": "choco",
+  "theme": "syntax",
+  "version": "0.1.0",
+  "description": "A chocolate color theme for Atomm ",
+  "keywords":[
+    "syntax",
+    "chocolate",
+    "candy",
+    "theme"
+  ],
+  "repository": "git@github.com:tendertree/choco.git",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  }
+}
