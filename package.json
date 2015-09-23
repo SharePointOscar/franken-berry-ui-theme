@@ -9,7 +9,7 @@
     "candy",
     "theme"
   ],
-  "repository": "git@github.com:tendertree/choco.git",
+  "repository": "https://github.com/tendertree/choco",
   "license": "MIT",
   "engines": {
     "atom": ">=0.174.0 <2.0.0"
