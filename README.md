@@ -1,6 +1,6 @@
 # Choco Syntax theme
 
-An Simple color syntax theme for the Atom editor.
+A Simple color syntax theme for the Atom editor.
 
 
 
