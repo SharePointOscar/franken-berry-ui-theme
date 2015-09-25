@@ -345,6 +345,313 @@ atom-text-editor .search-results .marker.current-result .region,
   }
 }
 
+.source.go{
+  .type {
+   color:@very-light-gray;
+  }
+  .variable{
+    color:@cyan;
+
+  }
+  .keyword{
+    color:@red;
+  }
+  .support.function {
+    color: @purple;
+
+  }
+  .entity.name.function{
+      color: @light-orange;
+
+  }
+
+}
+
+atom-text-editor[mini] .scroll-view,
+:host([mini]) .scroll-view {
+  padding-left: 1px;
+}
+
+
+.entity {
+  &.name.type {
+    color: @light-orange;
+  }
+
+  &.other.inherited-class {
+    color: @green;
+  }
+}
+
+.keyword {
+  color: @purple;
+
+  &.control {
+    color: @red;
+
+    &.php {
+      color: @purple;
+    }
+  }
+
+  &.control.at-rule {
+    color: @purple;
+
+    .keyword {
+      color: @cyan;
+    }
+  }
+
+  &.operator {
+    color: @cyan;
+  }
+
+  &.other.special-method {
+    color: @blue;
+  }
+
+  &.other.unit {
+    color: @light-orange;
+  }
+}
+
+.storage {
+  color: @purple;
+
+  &.modifier.php {
+    color: @very-light-gray;
+  }
+}
+
+.constant {
+  color: @light-orange;
+
+  &.character.escape {
+    color: @cyan;
+  }
+
+  &.numeric {
+    color: @light-orange;
+  }
+
+  &.other.color {
+    color: @cyan;
+  }
+
+  &.other.symbol {
+    color: @green;
+  }
+}
+
+.type {
+  color: @purple;
+
+  &.property-name {
+    color: @cyan;
+  }
+}
+
+.variable {
+  color: @red;
+
+  &.other {
+    color: @very-light-gray;
+
+    &.less {
+      color: @red;
+    }
+  }
+
+  &.parameter.function {
+    color: @light-orange;
+  }
+}
+
+.invalid.illegal {
+  background-color: @red;
+  color: @syntax-background-color;
+}
+
+.string {
+  color: @green;
+
+
+  &.regexp {
+    color: @cyan;
+
+    .source.ruby.embedded {
+      color: @orange;
+    }
+  }
+
+  &.other.link {
+    color: @red;
+  }
+}
+
+.punctuation {
+  &.definition {
+    &.comment {
+      color: @light-gray;
+    }
+
+    &.begin,
+    &.end {
+      color: @cyan;
+    }
+
+    &.string,
+    &.variable,
+    &.parameters,
+    &.array {
+      color: @cyan;
+    }
+
+    &.heading,
+    &.identity {
+      color: @blue;
+    }
+
+    &.bold {
+      color: @light-orange;
+      font-weight: bold;
+    }
+
+    &.italic {
+      color: @purple;
+      font-style: italic;
+    }
+  }
+
+  &.section.embedded {
+    color: @light-orange;
+  }
+
+}
+
+.support {
+  &.class {
+    color: @purple;
+  }
+
+  &.function  {
+    color: @blue;
+  }
+}
+
+.entity {
+  &.name.function {
+    color: @blue;
+  }
+
+  &.name.class, &.name.type.class {
+    color: @light-orange;
+  }
+
+  &.name.section {
+    color: @blue;
+  }
+
+  &.name.tag {
+    color: @red;
+  }
+
+  &.other.attribute-name {
+    color: @cyan;
+
+    &.class {
+      color: @green;
+    }
+
+    &.id {
+      color: @orange;
+    }
+  }
+}
+
+.meta {
+  &.class {
+    color: @light-orange;
+  }
+
+  &.link {
+    color: @orange;
+  }
+
+  &.function-call,
+  &.require {
+    color: @blue;
+  }
+
+  &.selector {
+    color: @purple;
+  }
+
+  &.tag {
+    color: @cyan;
+  }
+
+  &.separator {
+    background-color: @gray;
+    color: @syntax-text-color;
+  }
+}
+
+.none {
+  color: @syntax-text-color;
+}
+
+.markup {
+  &.bold {
+    color: @orange;
+    font-weight: bold;
+  }
+
+  &.changed {
+    color: @purple;
+  }
+
+  &.deleted {
+    color: @red;
+  }
+
+  &.italic {
+    color: @purple;
+    font-style: italic;
+  }
+
+  &.heading .punctuation.definition.heading {
+    color: @blue;
+  }
+
+  &.inserted {
+    color: @green;
+  }
+
+  &.list {
+    color: @red;
+  }
+
+  &.quote {
+    color: @orange;
+  }
+
+  &.raw.inline {
+    color: @green;
+  }
+}
+
+.source.gfm .markup {
+  -webkit-font-smoothing: auto;
+  &.heading {
+    color: @green;
+
+    .marker {
+      color: @cyan;
+    }
+  }
+}
+
 atom-text-editor[mini] .scroll-view,
 :host([mini]) .scroll-view {
   padding-left: 1px;
