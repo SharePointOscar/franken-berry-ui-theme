@@ -1,15 +1,16 @@
 {
-  "name": "choco",
+  "name": "Franken Berry",
   "theme": "syntax",
   "version": "0.7.0",
-  "description": "A chocolate color theme for Atomm ",
+  "description": "Remember when you were a kid, and loved getting a big bowl of that cereal on a Saturday morning while watching cartoons?\r\n\r\n\r\n\r\nThis theme is for you, to bring back those memories while coding away! ",
   "keywords": [
     "syntax",
-    "chocolate",
-    "candy",
+    "franken",
+    "berry",
+    "cereal",
     "theme"
   ],
-  "repository": "https://github.com/tendertree/choco",
+  "repository": "https://github.com/SharePointOscar/franken-berry-ui-theme",
   "license": "MIT",
   "engines": {
     "atom": ">=0.174.0 <2.0.0"
