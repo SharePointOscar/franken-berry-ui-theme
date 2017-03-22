@@ -1,7 +1,9 @@
-# Choco Syntax theme
+# Franken Berry UI Theme
 
-A Simple color syntax theme for the Atom editor.
+The Atom UI Theme companion for Franken Berry Syntax Theme.
 
+![](FrankenBerryUITheme.png)
 
+Was it the marshmallows?...
 
-![](http://i.imgur.com/g1bSt90.jpg)
+![](franken.jpg)

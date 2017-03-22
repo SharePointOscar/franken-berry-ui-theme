@@ -1,10 +1,10 @@
 {
-  "name": "Franken Berry",
-  "theme": "syntax",
-  "version": "0.7.0",
-  "description": "Remember when you were a kid, and loved getting a big bowl of that cereal on a Saturday morning while watching cartoons?\r\n\r\n\r\n\r\nThis theme is for you, to bring back those memories while coding away! ",
+  "name": "franken-berry-ui",
+  "theme": "ui",
+  "version": "1.0.0",
+  "description": "Remember when you were a kid, and loved getting a big bowl of that cereal on a Saturday morning while watching cartoons? Yeah... ",
   "keywords": [
-    "syntax",
+    "ui",
     "franken",
     "berry",
     "cereal",
