@@ -2,8 +2,16 @@
 
 The Atom UI Theme companion for Franken Berry Syntax Theme.
 
-![](FrankenBerryUITheme.png)
+### Javascript Code Sample
 
-Was it the marshmallows?...
+![](FrankenBerryUIThemeJS.png)
+
+### HTML Code Sample
+![](FrankenBerryUIThemeHTML.png)
+
+### CSS Code Sample
+![](FrankenBerryUIThemeCSS.png)
+
+### Was it the marshmallows?...
 
 ![](franken.jpg)
