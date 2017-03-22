@@ -11,6 +11,9 @@
     "theme"
   ],
   "repository": "https://github.com/SharePointOscar/franken-berry-ui-theme",
+  "bugs": {
+  "url": "https://github.com/SharePointOscar/franken-berry-ui-theme/issues"
+  },
   "license": "MIT",
   "engines": {
     "atom": ">=0.174.0 <2.0.0"
